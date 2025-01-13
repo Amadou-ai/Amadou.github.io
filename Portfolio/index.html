@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="0" class="logo"><span>Amadou Barry</span></a>
+
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <!--<li>
+                <a href="#experience">Experience</a>
+            </li>-->
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <button class="visit-btn">visit Github</button>
+    </header>
+
+    <section id="about"  class="about">
+        <div class="about-container">
+            <img src="pdpDev02.jpeg" alt="photos de profiles">
+
+            <div class="info-box">
+
+                <div class="text">
+                    <h3>Bonjour, je suis</h3>
+                    <h1>Barry Amadou</h1>
+                    <span>Etudiant en informatique</span>
+                </div>
+
+                <div class="btn-group">
+                    <div class="btn">Download CV</div>
+                    <div class="btn">Contact</div>
+                </div>
+
+                <div class="socials">
+                   <a href="https://github.com/Amadou-ai/Amadou.github.io.git" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/amadou-barry-dev" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--<section id="experience" class="experience">
+
+        <h2 class="section-title">Experience</h2>
+
+        <div class="experience-infos">
+
+            <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Etudiant </span>
+                    <h3>2 ans</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing 
+                        elit. Libero, nobis?</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Etudiant </span>
+                    <h3>2 ans</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing 
+                        elit. Libero, nobis?</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Etudiant </span>
+                    <h3>2 ans</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing 
+                        elit. Libero, nobis?</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Etudiant </span>
+                    <h3>2 ans</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing 
+                        elit. Libero, nobis?</p>
+                </div>
+                
+            </div>
+                <img src="pdpDev02.jpeg" alt="">
+            
+            
+        </div>
+    </section>-->
+
+
+    <section id="projects" class="projects">
+
+        <h2 class="section-title">Projets recents</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <img src="pdp Dev.jpeg" alt="">
+                <h3>Projets X</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing 
+                    elit. Necessitatibus, odio.</p>
+                <div class="btn-group">
+                    <div class="btn">live Demo</div>
+                    <div class="btn">Github Repo</div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="pdp Dev.jpeg" alt="">
+                <h3>Projets Y</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing 
+                    elit. Necessitatibus, odio.</p>
+                <div class="btn-group">
+                    <div class="btn">live Demo</div>
+                    <div class="btn">Github Repo</div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="pdp Dev.jpeg" alt="">
+                <h3>Projets Z</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing 
+                    elit. Necessitatibus, odio.</p>
+                <div class="btn-group">
+                    <div class="btn">live Demo</div>
+                    <div class="btn">Github Repo</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="input-box">
+            <h2 class="section-title">Contactez-moi</h2>
+            <form id="contact-form">
+                <div class="input">
+                    <input type="text" id="name" placeholder="Votre nom" required>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="input">
+                    <input type="email" id="email" placeholder="Votre email" required>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="input">
+                    <textarea id="message" placeholder="Votre message" required></textarea>
+                    
+                </div>
+                <button type="submit" class="btn">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <!--<li>
+                <a href="#experience">Experience</a>
+            </li>-->
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyright"> All Rights Reserved | Amadou Barry</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
